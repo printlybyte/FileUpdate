@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/update_file_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fileexplorer_item_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/view_10dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:focusableInTouchMode="false" >
+
+            <CheckBox
+                android:id="@+id/fileCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:background="@drawable/localefile_cb_bg"
+                android:button="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <ImageView
+                android:id="@+id/upfileType"
+                android:layout_width="@dimen/view_36dp"
+                android:layout_height="@dimen/view_36dp"
+                android:layout_marginLeft="@dimen/view_8dp"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="@dimen/view_8dp">
+
+                <TextView
+                    android:id="@+id/upfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/view_6dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14sp" />
+
+                <TextView
+                    android:id="@+id/upfilePath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/view_6dp"
+                    android:layout_toLeftOf="@+id/upfileName"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14sp"
+                    android:visibility="invisible" />
+
+                <com.hutu.localfile.util.HProgressBar
+                    android:id="@+id/id_progressbar01"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/upfileName"
+                    android:layout_marginTop="2dip"
+                    android:padding="5dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/pause_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="@string/pause"
+                android:textSize="@dimen/text_14sp" />
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="@string/start"
+                android:textSize="@dimen/text_14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

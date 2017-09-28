@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/edit_normal"
+            android:enabled="false"
+            android:inputType="none"
+            android:singleLine="true"
+            android:hint="请选择目录" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="@string/browse"
+            android:textSize="@dimen/text_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/edit_normal"
+            android:enabled="false"
+            android:inputType="none"
+            android:singleLine="true" 
+            android:hint="请选择目录"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="@string/browse"
+            android:textSize="@dimen/text_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/edit_normal"
+            android:enabled="false"
+            android:inputType="none"
+            android:singleLine="true" 
+            android:hint="请选择目录"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="@string/browse"
+            android:textSize="@dimen/text_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/edit_normal"
+            android:enabled="false"
+            android:inputType="none"
+            android:singleLine="true" 
+            android:hint="请选择目录"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="@string/browse"
+            android:textSize="@dimen/text_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/edittext5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/edit_normal"
+            android:enabled="false"
+            android:inputType="none"
+            android:singleLine="true"
+            android:hint="请选择目录" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="@string/browse"
+            android:textSize="@dimen/text_16sp" />
+    </LinearLayout>
+
+</LinearLayout>

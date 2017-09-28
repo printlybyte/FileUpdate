@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置的类别 -->
+
+    <PreferenceCategory
+        android:clickable="true"
+        android:key="file_tile"
+        android:summary="@string/setting_auto_func"
+        android:title="@string/setting_auto_func" >
+
+        <com.hutu.localfile.util.ChosePreference
+            android:id="@+id/settingauto_func"
+            android:key="settingauto_func"
+            android:title="@string/settingauto_func" >
+        </com.hutu.localfile.util.ChosePreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="mylocation"
+        android:summary="@string/chose_network"
+        android:title="@string/chose_network" >
+
+        <CheckBoxPreference
+             android:defaultValue="true"
+            android:key="gsm_network"
+            android:title="@string/GSM_network" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifi_network"
+            android:title="@string/wifi_network" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="file_op"
+        android:summary=""
+        android:title="@string/file_op" >
+
+        <ListPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/fileop_tile"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="file_setting"
+            android:title="@string/fileop_tile" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="mIp"
+        android:summary=""
+        android:title="IP设置" >
+      <!--之前是EditTextPreference  -->
+        <Preference
+            android:defaultValue="@string/ServerIp"
+            android:key="ServerIp"
+            android:title="Server IP设置" />
+    </PreferenceCategory>
+    
+     
+    <Preference
+            android:defaultValue="@string/changePassword"
+            android:key="changePassword"
+            android:title="更改密码" />
+    
+
+</PreferenceScreen>

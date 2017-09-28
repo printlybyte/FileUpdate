@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\studioworkspcse\FileUpdate\FileUpdate\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe882960b965e57557d564d96ae9f19161f6916">
+        <dex dex="G:\studioworkspcse\FileUpdate\FileUpdate\build\intermediates\pre-dexed\debug\volley_882ffc93b956663c4b1ad53e1861e12d5fec9195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\studioworkspcse\FileUpdate\FileUpdate\libs\commons-net-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="643cc426b9f75aa111fac0fac0e52ff5d991a337">
+        <dex dex="G:\studioworkspcse\FileUpdate\FileUpdate\build\intermediates\pre-dexed\debug\commons-net-3.0.1_791e91350a6532ae97cb3bc59cfe528301ac0514.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\studioworkspcse\FileUpdate\FileUpdate\libs\tray.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="878eef4f307b384e8f8bacf336169ed90a70d6ba">
+        <dex dex="G:\studioworkspcse\FileUpdate\FileUpdate\build\intermediates\pre-dexed\debug\tray_fe9c52f998510524d08eff21c803489986d76455.jar" />
+    </item>
+
+</items>

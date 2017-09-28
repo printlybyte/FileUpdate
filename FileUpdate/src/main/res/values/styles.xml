@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">30dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="title_Layout_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#c477786d</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="list_content_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/list_corner</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="list_spiner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#cccccc</item>
+    </style>
+
+    <style name="list_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableRight">@drawable/person_list_right_img</item>
+        <item name="android:background">@drawable/tab_button_sel</item>
+    </style>
+
+    <style name="list_linearlayout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableRight">@drawable/person_list_right_img</item>
+        <item name="android:background">@drawable/tab_button_sel</item>
+    </style>
+
+    <style name="list_text_null_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@drawable/tab_button_sel</item>
+    </style>
+
+    <style name="font_size_max">
+        <item name="android:textSize">@dimen/font_size_max</item>
+    </style>
+
+    <style name="font_size_large">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+
+    <style name="font_size_mid">
+        <item name="android:textSize">@dimen/font_size_mid</item>
+    </style>
+
+    <style name="font_size_small">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- 返回按钮样式 -->
+    <style name="backStyle">
+        <item name="android:layout_width">@dimen/title_btn_w</item>
+        <item name="android:layout_height">@dimen/title_btn_h</item>
+        <item name="android:background">@drawable/selector_back</item>
+        <item name="android:layout_marginLeft">@dimen/view_6dp</item>
+    </style>
+
+    <!-- 下一步按钮样式 -->
+    <style name="rightBtnStyle">
+        <item name="android:layout_width">@dimen/title_btn_w</item>
+        <item name="android:layout_height">@dimen/title_btn_h</item>
+        <item name="android:background">@drawable/next_btn</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:layout_marginRight">@dimen/view_6dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--
+    下一步按钮样式 
+    <style name="nextStyle" parent="@style/rightBtnStyle">
+        <item name="android:text">@string/next</item>
+    </style>
+
+    -->
+
+
+    <!-- header样式 -->
+    <style name="headerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/view_50dp</item>
+        <item name="android:background">@drawable/title_bg</item>
+    </style>
+
+    <!-- 完成按钮样式 -->
+    <style name="finishStyle" parent="@style/rightBtnStyle"></style>
+    <!-- 标题样式 -->
+    <style name="titleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 本地文件 itemStyle -->
+    <style name="localeFileMainItemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/view_8dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "G:\\studioworkspcse\\FileUpdate\\FileUpdate\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\3e68af1f6f3789e458f77d197630c16aacf86e59\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 76,
+                        "endOffset": 352
+                    }
+                }
+            }
+        ]
+    }
+]

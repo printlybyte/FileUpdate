@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item>@string/OK</item>
+        <item>@string/FALSE</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="DefaultOp_func">
+        <item>@string/more_op</item>
+    </string-array>
+    <string-array name="file_list_func">
+        <item>@string/cutfile</item>
+        <item>@string/copyfile</item>
+        <item>@string/deletfile</item>
+    </string-array>
+    <string-array name="hobby">
+        <item>@string/bxfile_image</item>
+        <item>@string/bxfile_music</item>
+        <item>@string/bxfile_video</item>
+    </string-array>
+    <string-array name="upOp">
+        <item>@string/auto_file_op</item>
+        <item>@string/auto_path_op</item>
+    </string-array>
+
+</resources>

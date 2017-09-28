@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tray">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FileUpdate/libs/tray.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
